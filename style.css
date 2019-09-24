@@ -4,8 +4,23 @@
    }
    .caption {
     position: absolute;
-    top: 44%;
-    left: 38px;
-    width: 206%;
+    top: 35%;
+    left: 119px;
+    width: 67%;
     color: white;
    }
+   @media (max-width: 900px){
+     .newsNav{
+    }
+    .displayNone900{
+      display: none;
+
+     }
+   }
+
+   @media (max-width: 1200px){
+   .descubre{
+    display:none;
+
+    }
+  }
