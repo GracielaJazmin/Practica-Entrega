@@ -10,8 +10,6 @@
     color: white;
    }
    @media (max-width: 900px){
-     .newsNav{
-    }
     .displayNone900{
       display: none;
 
@@ -24,3 +22,10 @@
 
     }
   }
+
+  @media (max-width: 900px){
+    #barra{
+     display:none;
+ 
+     }
+   }
