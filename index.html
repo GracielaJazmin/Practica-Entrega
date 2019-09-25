@@ -81,8 +81,8 @@
       </div>
       <div class="container-fluid col-md-4">
         <div class="row" style="margin:-1px;margin-top:24px;">
-          <div class="col-md-4 col-xs-4 col-4" style="padding: 0px;margin-left: -7px;">
-            <ul class="nav nav-pills">
+          <div class="col-md-3 col-xs-3 col-3" style="padding: 0px;margin-left: -7px;">
+            <ul class="nav nav-pills" id="barra">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" style="color: grey;width: 101px; margin-top: 0px;" href="#"
                   id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -92,18 +92,20 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4 col-4 col-xs-4">
-            <button type="button" class="btn btn-danger"><b>Susbcribete</b> </button>
+          <div class="col-md-3 col-3 col-xs-3" style="margin-left: -1px;
+          margin-right: 51px;">
+            <button type="button" class="btn" style="color: white;background:#cc0000;"><b>Susbcribete</b> </button>
           </div>
-          <div class="col-md-4 col-xs-4 col-4">
-            <button type="button" class="btn btn-light text-danger"><b>Iniciar sesión</b> </button>
+          <div class="col-md-3 col-xs-3 col-3" style="margin-left: 10px;
+          margin-right: 2px">
+            <button type="button" class="btn btn-light" style="color:#cc0000;"><b>Iniciar sesión</b> </button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-danger">
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger container" style="padding:0px;">
+  <div class="container-fluid" style="background:#cc0000;">
+    <nav class="navbar navbar-expand-lg navbar-light container" style="background: #cc0000 ;padding:0px;">
       <img src="imagenes/1200x630wa.png" style="width: 90px;height: 55px;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -167,25 +169,23 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-1 col-md-1"><b style="margin-right: 19px;margin-left: 19px;">Agenda</b></div>
-      <div class="col-1 col-md-1"><p style="height: 45px;margin-right: -18px;margin-left: -12px;background: red;color: white;width: 94px;text-align: center;font-weight: bold;">En directo</p></div>
-      <div class="col-1 col-md-1"><p style="    margin-right: -71px;
-        margin-left: 4px;
-        background: #e2d9d9;">Todas las noticias <b>Ultima hora</b></p></div>
-      <div class="col-1 col-md-1">
-        <p style="    margin-right: -126px;
-        margin-left: 101px;
-        background: red;
-        color: white;
-        text-align: center;
-        font-weight: bold;
-        width: 118px;
-        height: 49px;">Lo mejor del día</p></div>
-      <div class="col-1 col-md-1"><p style="margin-right: 72px;
-        margin-left: 150px;
-        width: 104px;
-        background: #e2d9d9;
-        height: 52px;">Agenda <b>Jueves 23</b></p></div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link text-dark active" href="#"><b>Agenda</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" style="background:#cc0000;" href="#">En directo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Todas la noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" style="background:#cc0000;" href="#">Lo mejor del dia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Agenda <b>Miercoles 23</b></a>
+        </li>
+      </ul>
       <ul class="nav nav-pills" style="margin-left:23%">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" style="color:grey" href="#" id="navbarDropdownMenuLink" role="button"
@@ -196,11 +196,12 @@
       </ul>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-6" style="margin-left: -59px;padding-left: 77px;    margin-top: 46px;">
-        <img src="imagenes/Champions-league-mejores-partidos.png" alt="hola"
-          width="100%" style="    width: 135%;" alt="">
+      <div class="col-md-6 col-12" style="margin-left: -59px;padding-left: 77px;margin-top: 46px;">
+        <img src="imagenes/Champions-league-mejores-partidos.png" alt="hola" style="display: block;
+        width: 124%;
+        height: 81%;" alt="">
         <div class="caption col-md-12 descubre">
           <p>Descubre a los ocho grandes favoritos</p>
           <h1>¿Cuál es el mejor once para reinar en Europa?</h1>
@@ -214,16 +215,16 @@
             </div>
             <div class="col-md-6 col-6" style="margin-left: 95%; margin-top: -35px;">
               <i class="fas fa-comment-alt">
-                <p style="margin-left: 17px;margin-top: -16px;color: red;">468</p>
+                <p style="margin-left: 17px;margin-top: -16px;color: #cc0000;">468</p>
               </i>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 p-5" style="clear: both;
+      <div class="col-md-6 col-12 p-5" style="clear: both;
       float: left;
       margin-left: 59px;">
-        <div class="container-fluid" style="max-width: 381px;margin-top:-10px;">
+        <div class="container" style="max-width: 381px;margin-top:-10px;width: 100%;">
           <div class="row mt-2">
             <div class="col-md-6 col-6">
               <div>
@@ -239,9 +240,9 @@
                         A. MOGOLLO Y E. BORDA
                       </p>
                     </div>
-                    <div class="col-md-6 col-6" style="margin-left: 193%; margin-bottom: 28px; margin-top: -50px">
+                    <div class="col-md-6 col-12" style="margin-left: 193%; margin-bottom: 28px; margin-top: -50px">
                       <i class="fas fa-comment-alt">
-                        <p style="margin-left: 17px;margin-top: -16px;color: red;">468</p>
+                        <p style="margin-left: 17px;margin-top: -16px;color: #cc0000;">468</p>
                       </i>
                     </div>
                   </div>
@@ -266,22 +267,22 @@
                   <div class="row">
                     <div class="col-md-12 col-12">
                     </div>
-                    <div class="col-md-6 col-6" style="margin-left: 217%;
-                    margin-bottom: 28px;
-                    margin-top: -1px;">
-                      <i class="fas fa-comment-alt">
-                        <p style="margin-left: 17px;
-                                    margin-top: -16px;
-                                    color: red;">468</p>
-                      </i>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-6">
               <p style="color:dodgerblue;margin-bottom: 0px;">FICHAJES</p>
-              <h5 style="margin-bottom: 33px;font-size:17px"><b> Mercado: el 'recambio' de Filipe Luis puede llega de Alemania</b></h5>
+              <h5 style="margin-bottom: 33px;font-size:17px"><b> Mercado: el 'recambio' de Filipe Luis puede llega de
+                  Alemania</b></h5>
+              <div class="col-md-6 col-12" style="margin-top: -26px;
+                  margin-left: 70px;">
+                <i class="fas fa-comment-alt">
+                  <p style="margin-left: 17px;
+                                  margin-top: -16px;
+                                  color: #cc0000;">468</p>
+                </i>
+              </div>
             </div>
           </div>
           <hr style="margin:-17px;" color="grey" size=3>
@@ -300,11 +301,6 @@
                         JOSE FELIX DIAZ 206
                       </p>
                     </div>
-                    <div class="col-md-6 col-6" style="margin-left: 193%; margin-top:-9px">
-                      <i class="fas fa-comment-alt">
-                        <p style="margin-left: 17px;margin-top: -16px;color: red;">468</p>
-                      </i>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -312,6 +308,12 @@
             <div class="col-md-6 col-6">
               <p style="color:dodgerblue"><b>REAL MADRID</b></p>
               <h5 style="font-size:17px"><b> Champios y Liga para el portero titular</b></h5>
+              <div class="col-md-6 col-6" style="margin-top: -9px;
+              margin-left: 70px;">
+                <i class="fas fa-comment-alt">
+                  <p style="margin-left: 17px;margin-top: -16px;color: #cc0000;">468</p>
+                </i>
+              </div>
             </div>
           </div>
         </div>
@@ -356,69 +358,110 @@
       <p style="margin-right: 19px;margin-left: 19px;">Calendario Liga</p>
     </div>
   </div>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
-      <div class="col-4">
-        <div class="card mb-1" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="imagenes/15349608978686.jpg" class="card-img" alt="...">
+      <div class="container col-12 col-md-4" style="max-width:381px;margin-top: 26px;">
+        <div class="row mt-2">
+          <div class="col-md-6 col-6">
+            <div>
+              <img src="imagenes/15349608978686.jpg" width="100%" alt="">
             </div>
-            <div class="col-md-8">
-              <div class="card-body" style="padding: 0.25rem;">
-                <h5 class="card-title" style="margin-bottom:1px; margin-bottom: -7px;margin-top: 0px;color:#3498d8;">
-                  LALIGA SANTANDER</h5>
-                <p class="card-text"><b>¿Qué equipo y qué jugadores estuvieron en la reunión de la AFE?</b></p>
-              </div>
-              <div class="col-md-6 col-6" style="margin-left: 66%;margin-top: 7px;">
-                <i class="fas fa-comment-alt">
-                  <p style="margin-left: 17px;margin-top: -16px;color: red;">14</p>
-                </i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr color="grey" size=3>
-      </div>
-      <div class="col-4">
-        <div class="card mb-1" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body" style="padding: 0.25rem;">
-                <h5 class="card-title" style="margin-bottom:1px; margin-bottom: -7px;margin-top: 0px;color:#3498d8;">
-                </h5>
-                <p class="card-text"><b></b></p>
-                <p class="card-text"><small class="text-muted"></small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card mb-1" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="imagenes/15349594824613.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body" style="padding: 0.25rem;">
-                <h5 class="card-title" style="margin-bottom:1px; margin-bottom: -7px;margin-top: 0px;color:#3498d8;">
-                  SEVILLA FC</h5>
-                <p class="card-text"><b>Draxler y Martial, nombres 'top' en la recta final del mercado</b></p>
-              </div>
-              <p class="card-text" style="margin-left: -114px;"><small class="text-muted">ROCIO GUEVARA SEVILLA</small>
+            <div class="col-md-12 col-12">
+              <p style="font-size: 11px;">
+                A. MOGOLLO Y E. BORDA
               </p>
-              <div class="col-md-6 col-6" style="margin-left: 66%;margin-top: -38px;">
-                <i class="fas fa-comment-alt">
-                  <p style="margin-left: 17px;margin-top: -16px;color: red;">64</p>
-                </i>
+            </div>
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-md-6 col-6">
+            <p style="color:dodgerblue;margin-bottom: 0px;">LA LIGA SANTANDER</p>
+            <h5 style="margin-bottom: 33px;font-size:17px"><b> ¿Qué equipo y qué jugadores estuvieron en la reunión de
+                la AFE?</b></h5>
+            <div class="col-md-6 col-12" style="margin-top: -26px;
+                  margin-left: 70px;">
+              <i class="fas fa-comment-alt">
+                <p style="margin-left: 17px;
+                                  margin-top: -16px;
+                                  color: #cc0000;">14</p>
+              </i>
+            </div>
+
+          </div>
         </div>
-        <hr color="grey" size=3>
+        <hr style="margin:-17px;" color="grey" size=3>
+      </div>
+      <div class="container col-12 col-md-4" style="max-width:381px;margin-top: 26px;">
+        <div class="row mt-2">
+          <div class="col-md-6 col-6">
+            <div>
+              <img src="" width="100%" alt="">
+            </div>
+            <div class="col-md-12 col-12">
+              <p style="font-size: 11px;">
+              </p>
+            </div>
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <p style="color:dodgerblue;margin-bottom: 0px;"></p>
+            <h5 style="margin-bottom: 33px;font-size:17px"><b> </b></h5>
+            <div class="col-md-6 col-12" style="margin-top: -26px;
+                    margin-left: 70px;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container col-12 col-md-4" style="max-width:381px;margin-top: 26px;">
+        <div class="row mt-2">
+          <div class="col-md-6 col-6">
+            <div>
+              <img src="imagenes/15349594824613.jpg" width="100%" alt="">
+            </div>
+            <div class="col-md-12 col-12">
+              <p style="font-size: 11px;">
+                ROCIO GUEVARA SEVILLA
+              </p>
+            </div>
+            <div class="col-md-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-6">
+            <p style="color:dodgerblue;margin-bottom: 0px;">SEVILLA FC</p>
+            <h5 style="margin-bottom: 33px;font-size:17px"><b> Draxler y Martial, nombres 'top' en la recta final del
+                mercado</b></h5>
+            <div class="col-md-6 col-12" style="margin-top: -26px;
+                    margin-left: 70px;">
+              <i class="fas fa-comment-alt">
+                <p style="margin-left: 17px;
+                                    margin-top: -16px;
+                                    color: #cc0000;">64</p>
+              </i>
+            </div>
+
+          </div>
+        </div>
+        <hr style="margin:-17px;" color="grey" size=3>
       </div>
     </div>
   </div>
